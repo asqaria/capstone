@@ -1,7 +1,6 @@
 # Car Market Capstone Project
 
-This is my final capstone project for Udacity's FullStack Web Developer Nanodegree.
-Web app can be accessed at [here](https://fsdu-capstone.onrender.com/)
+This is my final capstone project for Udacity's FullStack Web Developer Nanodegree. I careated Car Market Web Appication where users can buy or sell their cars. Web app can be accessed at [here](https://fsdu-capstone.onrender.com/)
 
 ##### Project Dependencies
 * __Flask__ - Slim python web library.
@@ -9,12 +8,20 @@ Web app can be accessed at [here](https://fsdu-capstone.onrender.com/)
 * __RenderOption__ - PaaS platform for easy hosting of web apps
 * __Postman__ - API testing tool
 
-### Installation instructions
+### Installation instructions on loccal machine
 * Clone project to directory of your choice.
 * Create a virtualenv in project directory
 * run ```pip install -r requirements.txt``` to install project dependencies
 * add ```DATABASE_URL``` to environment variables of your system. 
 * run ```python app.py```
+
+### Deployment instructions on Render
+* Create a Render Account
+* Set up a Database Service with Postgres
+* Create GitHub repo
+* Deploy Apps with Render's Web Service (need to connect to GitHub repo)
+* Add Internal Database URL to Web Service Environment Variable
+* run deploy
 
 ###Endpoints:
 * GET /car and /user
